@@ -1,6 +1,6 @@
 # Project 3 Design Log
-**Author:** <your name> · **P2 code used:** instructor reference (`-DUSE_P2_REFERENCE=ON`); my P2 files were not copied into this starter.
-**Tools used:** Claude (Anthropic AI assistant) — drafted `tool_registry`, `workspace.cpp`, `calculator_eval.cpp`, the test suite and a first draft of this log. I reviewed, built and ran everything on Linux with ASan + UBSan and `-DMH_WERROR=ON`. <edit this to describe exactly how you used it>
+**Author:** Shinsei Umebayashi · **P2 code used:** instructor reference (`-DUSE_P2_REFERENCE=ON`); my P2 files were not copied into this starter.
+**Tools used:** Claude (Anthropic AI assistant). Because I was behind schedule, I used it to produce the first version of the code, tests, and this log. I then went through each part with it to make sure I understood the design, including why the table resizes before inserting, why find() pointers survive a rehash, and how the two stacks evaluate 2 * (3 + 4) - 5. I verified everything by building and running the full test suite.
 
 ## 1. Hash table
 
